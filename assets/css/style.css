@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Yellowtail&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+section {
+    justify-content: center;
+    min-height: 100vh;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-item {
+    align-items: center;
+}
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.section-1-name {
+    font-family: "Inter", serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    text-align: center;
+    color: #131313;
+}
+
+.section-1-name-about {
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(19, 19, 19, 0.6);
+}
+
+
+.prev {
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(20, 168, 0, 1);
+    border-radius: 34px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(-125px);
+    left: 2%;
+}
+
+.prev:hover {
+    background-color: #14A800;
+}
+
+.prev:hover path {
+    fill: white;
+}
+
+.next {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #14A800;
+    border-radius: 34px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(-125px);
+    right: 2%;
+}
+
+.next:hover {
+    background-color: #14A800;
+}
+
+.next:hover path {
+    fill: white;
+}
+
+/* section-2 */
+.name {
+    font-family: "Manrope", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25.6px;
+    text-align: left;
+    color: #000000;
+}
+
+.name-description {
+    font-family: "Manrope", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    color: #000000;
+}
+
+.gap-3 {
+    gap: 2.5px;
+}
+
+.section-2-p {
+    font-family: "Manrope", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    color: #000000;
+    width: 316px;
+    height: 156px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.sectio-2-card {
+    max-width: 364px;
+    height: 305px;
+    padding: 24px;
+    border-radius: 24px;
+    background: #FFFFFF;
+    /* border: solid black; */
+    margin-right: 24px;
+    box-shadow: 0px 2px 44px 3px #5757571A;
+}
+
+/* section-3 */
+.section-3-h2 {
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    max-width: 447.81px;
+    color: #0B132A;
+}
+
+.section-3-p {
+    margin-top: 20px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    max-width: 555px;
+    margin-bottom: 60px;
+}
+
+.gap-21 {
+    gap: 21px;
+}
+
+.section-3-name {
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+}
+
+
+.section-3-h3 {
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+}
+
+.section-3-6 {
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #0B132A;
+    max-width: 340px;
+}
+
+.card-section-3 {
+    max-width: 400px;
+    border-radius: 10px;
+    border: 2px solid #DDDDDD;
+    padding: 30px;
+    height: 230px;
+    margin-right: 50px;
+}
+
+.card-section-3:active {
+    border: 2px solid #F53838
+}
