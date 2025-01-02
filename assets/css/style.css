@@ -184,7 +184,7 @@ section {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
-    text-align: center;
+    text-align: left;
     color: #0B132A;
 }
 
@@ -194,22 +194,22 @@ section {
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
-    text-align: center;
+    text-align: left;
     color: #4F5665;
 }
 
-.section-3-6 {
+.section-3-p {
     font-family: Rubik;
     font-size: 16px;
     font-weight: 400;
     line-height: 30px;
     text-align: left;
     color: #0B132A;
-    max-width: 340px;
+    /* max-width: 340px; */
 }
 
 .card-section-3 {
-    max-width: 400px;
+    /* max-width: 400px; */
     border-radius: 10px;
     border: 2px solid #DDDDDD;
     padding: 30px;
@@ -219,4 +219,8 @@ section {
 
 .card-section-3:active {
     border: 2px solid #F53838
+}
+
+.gap-10 {
+    gap: 10px;
 }
